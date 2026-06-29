@@ -1,0 +1,365 @@
+{
+  "breadcrumb": ["Store", "Games", "Stardew Valley"],
+  "category": "Games",
+  "title": "Stardew Valley",
+  "gallery": [
+    {
+      "type": "image",
+      "src": "/assets/gallery/01-titlescreen.jpg",
+      "alt": "Stardew Valley title screen"
+    },
+    {
+      "type": "video",
+      "src": "/assets/gallery/02-video-poster.jpg",
+      "alt": "Stardew Valley trailer"
+    },
+    {
+      "type": "image",
+      "src": "/assets/gallery/03-screenshot.jpg",
+      "alt": "Stardew Valley screenshot 3"
+    },
+    {
+      "type": "image",
+      "src": "/assets/gallery/04-screenshot.jpg",
+      "alt": "Stardew Valley screenshot 4"
+    },
+    {
+      "type": "image",
+      "src": "/assets/gallery/05-screenshot.jpg",
+      "alt": "Stardew Valley screenshot 5"
+    },
+    {
+      "type": "image",
+      "src": "/assets/gallery/06-screenshot.jpg",
+      "alt": "Stardew Valley screenshot 6"
+    },
+    {
+      "type": "image",
+      "src": "/assets/gallery/07-screenshot.jpg",
+      "alt": "Stardew Valley screenshot 7"
+    },
+    {
+      "type": "image",
+      "src": "/assets/gallery/08-screenshot.jpg",
+      "alt": "Stardew Valley screenshot 8"
+    }
+  ],
+  "esrb": {
+    "rating": "EVERYONE 10+",
+    "descriptors": [
+      "Fantasy Violence",
+      "Mild Blood",
+      "Mild Language",
+      "Simulated Gambling",
+      "Use of Alcohol",
+      "Use of Tobacco"
+    ],
+    "interactive": "Users Interact"
+  },
+  "switch2Compatibility": {
+    "title": "Nintendo Switch 2 Compatibility Information",
+    "text": "Supported – Game behavior is consistent with Nintendo Switch."
+  },
+  "purchase": {
+    "versions": [
+      { "id": "switch-2", "label": "Nintendo Switch 2", "selected": false },
+      { "id": "switch", "label": "Nintendo Switch", "selected": true },
+      { "id": "upgrade-pack", "label": "Upgrade Pack", "selected": false }
+    ],
+    "upgradeLink": "What's an upgrade pack?",
+    "edition": "Digital",
+    "priceLabel": "Regular Price:",
+    "price": 14.99,
+    "cta": "Direct download",
+    "note": "This item will be sent to your system automatically after purchase."
+  },
+  "description": {
+    "heading": "You're moving to the valley...",
+    "paragraphs": [
+      "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home? It won't be easy. Ever since Joja Corporation came to town, the old ways of life have all but disappeared. The community center, once the town's most vibrant hub of activity, now lies in shambles. But the valley seems full of opportunity. With a little dedication, you might just be the one to restore Stardew Valley to greatness!",
+      "Now with Multiplayer! Invite 1-3 players to join you in the valley! Players can work together to build a thriving farm, share resources, and build relationships with townspeople or each other. As more hands are better than one, players have the option to scale profit margin on produce sold for a more challenging experience."
+    ],
+    "readMore": "Read more",
+    "publisherNote": "Software description provided by the publisher.",
+    "officialSiteCta": "Explore this game's official website"
+  },
+  "relatedTags": [
+    "Action",
+    "Simulation",
+    "Character customization",
+    "Choose your own path",
+    "Pixel art",
+    "Romance",
+    "Meet up & play together",
+    "Online co-op",
+    "Play together on multiple consoles",
+    "Play together on one console"
+  ],
+  "aboutItem": [
+    {
+      "label": "Game file size",
+      "values": [
+        { "text": "Nintendo Switch: 1.5 GB" },
+        { "text": "Nintendo Switch 2: 2.2 GB" }
+      ]
+    },
+    {
+      "label": "Supported play modes",
+      "values": [
+        { "text": "TV mode" },
+        { "text": "Tabletop mode" },
+        { "text": "Handheld mode" }
+      ],
+      "note": "Software compatibility and play experience may differ on Nintendo Switch Lite. Additional accessories may be required (sold separately). See support for details."
+    },
+    {
+      "label": "No. of players",
+      "values": [
+        { "text": "Single system (1)", "link": true },
+        { "text": "Local wireless (1)", "link": true },
+        { "text": "Online (1-4)", "link": true }
+      ]
+    },
+    {
+      "label": "Nintendo Account family-group lending",
+      "values": [{ "text": "Supported" }]
+    },
+    {
+      "label": "Nintendo Switch Online",
+      "values": [
+        { "text": "Online Play", "link": true },
+        { "text": "Save Data Cloud", "link": true }
+      ],
+      "note": "Play online, access classic NES™ and Super NES™ games, and more with a Nintendo Switch Online membership.",
+      "noteLink": "Learn more"
+    },
+    { "label": "System", "values": [{ "text": "Nintendo Switch", "link": true }] },
+    { "label": "Publisher", "values": [{ "text": "ConcernedApe", "link": true }] },
+    { "label": "Developer", "values": [{ "text": "ConcernedApe", "link": true }] },
+    {
+      "label": "Supported languages",
+      "values": [
+        { "text": "Japanese, French, German, Italian, Spanish, Korean, Portuguese, Russian, Simplified Chinese, Latin American Spanish, Traditional Chinese, American English" }
+      ]
+    },
+    { "label": "Release date", "values": [{ "text": "October 5, 2017" }] },
+    {
+      "label": "ESRB rating",
+      "values": [
+        { "text": "Fantasy Violence, Mild Blood, Mild Language, Simulated Gambling, Use of Alcohol, Use of Tobacco", "link": true },
+        { "text": "Users Interact", "link": true }
+      ]
+    }
+  ],
+  "aboutPlayers": {
+    "heading": "About the Number of Players",
+    "text": "1-4 with online multiplayer functionality"
+  },
+  "moreLikeThis": [
+    {
+      "title": "Potion Permit",
+      "date": "9/22/22",
+      "image": "/assets/related/potion-permit.jpg",
+      "price": 19.99,
+      "category": "Games"
+    },
+    {
+      "title": "My Time at Portia",
+      "date": "4/16/19",
+      "image": "/assets/related/my-time-at-portia.jpg",
+      "price": 4.49,
+      "regularPrice": 29.99,
+      "discount": -85,
+      "saleEndsDays": 10,
+      "category": "Games"
+    },
+    {
+      "title": "Bear and Breakfast",
+      "date": "9/15/22",
+      "image": "/assets/related/bear-and-breakfast.jpg",
+      "price": 6.99,
+      "regularPrice": 19.99,
+      "discount": -65,
+      "saleEndsDays": 11,
+      "category": "Games"
+    },
+    {
+      "title": "Ooblets",
+      "date": "9/1/22",
+      "image": "/assets/related/ooblets.jpg",
+      "price": 29.99,
+      "category": "Games"
+    },
+    {
+      "title": "Moonstone Island",
+      "date": "6/19/24",
+      "image": "/assets/related/moonstone-island.jpg",
+      "price": 19.99,
+      "category": "Games"
+    },
+    {
+      "title": "Wytchwood",
+      "date": "12/9/21",
+      "image": "/assets/related/wytchwood.jpg",
+      "price": 19.99,
+      "category": "Games"
+    },
+    {
+      "title": "Fae Farm",
+      "date": "9/8/23",
+      "image": "/assets/related/fae-farm.jpg",
+      "price": 22.49,
+      "regularPrice": 44.99,
+      "discount": -50,
+      "saleEndsDays": 10,
+      "category": "Games"
+    },
+    {
+      "title": "Garden Story",
+      "date": "8/11/21",
+      "image": "/assets/related/garden-story.jpg",
+      "price": 19.99,
+      "category": "Games"
+    },
+    {
+      "title": "Let's Build a Zoo",
+      "date": "9/29/22",
+      "image": "/assets/related/lets-build-a-zoo.jpg",
+      "price": 6.99,
+      "regularPrice": 19.99,
+      "discount": -65,
+      "saleEndsDays": 10,
+      "category": "Games"
+    },
+    {
+      "title": "Roots of Pacha",
+      "date": "11/28/23",
+      "image": "/assets/related/roots-of-pacha.jpg",
+      "price": 24.99,
+      "category": "Games"
+    },
+    {
+      "title": "Littlewood",
+      "date": "2/25/21",
+      "image": "/assets/related/littlewood.jpg",
+      "price": 14.99,
+      "category": "Games"
+    },
+    {
+      "title": "DRAGON QUEST BUILDERS™ 2",
+      "date": "7/12/19",
+      "image": "/assets/related/dragon-quest-builders-2.jpg",
+      "price": 49.99,
+      "freeDemo": true,
+      "category": "Games"
+    },
+    {
+      "title": "Discounty",
+      "date": "8/20/25",
+      "image": "/assets/related/discounty.jpg",
+      "price": 19.99,
+      "freeDemo": true,
+      "category": "Games"
+    },
+    {
+      "title": "Cat Cafe Manager",
+      "date": "4/14/22",
+      "image": "/assets/related/cat-cafe-manager.jpg",
+      "price": 5.99,
+      "regularPrice": 19.99,
+      "discount": -70,
+      "saleEndsDays": 10,
+      "category": "Games"
+    },
+    {
+      "title": "Cozy Grove",
+      "date": "4/8/21",
+      "image": "/assets/related/cozy-grove.jpg",
+      "price": 7.26,
+      "regularPrice": 14.99,
+      "discount": -51,
+      "saleEndsDays": 4,
+      "category": "Games"
+    },
+    {
+      "title": "Summer in Mara",
+      "date": "6/16/20",
+      "image": "/assets/related/summer-in-mara.jpg",
+      "price": 4.99,
+      "regularPrice": 19.99,
+      "discount": -75,
+      "saleEndsDays": 21,
+      "category": "Games"
+    }
+  ],
+  "header": {
+    "nav": ["Explore", "Shop", "Support"],
+    "login": "Log in / Sign up"
+  },
+  "promoBar": [
+    {
+      "icon": "truck",
+      "segments": [
+        { "text": "Free shipping", "bold": true },
+        { "text": " on orders $50 or more. " },
+        { "text": "Restrictions apply.", "link": true }
+      ]
+    },
+    {
+      "icon": "points",
+      "segments": [
+        { "text": "Redeem your " },
+        { "text": "My Nintendo Platinum Points", "bold": true },
+        { "text": " for " },
+        { "text": "fun rewards", "link": true }
+      ]
+    }
+  ],
+  "legal": [
+    "WARNING: If you have epilepsy or have had seizures or other unusual reactions to flashing lights or patterns, consult a doctor before playing video games. All users should read the Health and Safety Information available in the system settings before using this software.",
+    "Nintendo Switch Online membership (sold separately) and Nintendo Account required for online play. Not available in all countries. Internet access required for online features. Terms apply. nintendo.com/online",
+    "Stardew Valley © ConcernedApe LLC 2016-2020. All rights reserved."
+  ],
+  "footer": {
+    "columns": [
+      {
+        "title": "About Nintendo",
+        "links": ["Careers", "Corporate Social Responsibility"]
+      },
+      {
+        "title": "Shop",
+        "links": ["Games", "Hardware", "Merchandise", "Sales and deals", "Exclusives", "Nintendo Switch Online", "Nintendo retail locations"]
+      },
+      {
+        "title": "Orders",
+        "links": ["Order details", "Shipping info", "Refunds and returns", "FAQ"]
+      },
+      {
+        "title": "Support",
+        "links": ["Nintendo Switch 2", "Nintendo Switch", "Nintendo Account", "Apps and other products", "Service center", "Nintendo product recycling", "Warranty", "Licensed product information"]
+      },
+      {
+        "title": "Parents",
+        "links": ["Info for parents", "Parental controls"]
+      },
+      {
+        "title": "Privacy",
+        "links": ["Privacy policy", "Cookies and interest-based ads"]
+      },
+      {
+        "title": "Community",
+        "links": ["Community guidelines", "Online safety"]
+      },
+      {
+        "title": "Documents and policies",
+        "links": ["Health and safety precautions", "Wireless regulatory info", "Supply chain transparency"]
+      }
+    ],
+    "copyright": "© Nintendo. Games are property of their respective owners. Nintendo of America Inc. Headquarters are in Redmond, Washington, USA",
+    "bottomLinks": ["Contact us", "Website feedback", "Terms of Use"],
+    "region": {
+      "label": "Region and language selector. Currently: USA.",
+      "language": "English (United States)"
+    }
+  }
+}
