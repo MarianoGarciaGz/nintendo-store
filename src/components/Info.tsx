@@ -10,7 +10,7 @@ export default function Info() {
     const [open, setOpen] = useState(false)
 
     return (
-        <div className='grid grid-cols-1 items-start gap-8 py-12 md:grid-cols-2 md:gap-12'>
+        <div className='grid grid-cols-1 items-start gap-7 py-12 md:grid-cols-2'>
             {/* Texto */}
             <div>
                 <h2 className='mb-4 text-[1.3125rem] font-semibold lg:text-[1.75rem]'>{description.heading}</h2>

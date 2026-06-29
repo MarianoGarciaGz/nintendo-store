@@ -5,7 +5,7 @@ const { relatedTags } = product
 
 export default function RelatedTags() {
     return (
-        <div className='py-12'>
+        <div className=''>
             <h2 className='mb-6 text-[1.3125rem] font-semibold lg:text-[1.75rem]'>Related tags</h2>
 
             <div className='flex flex-wrap gap-3'>

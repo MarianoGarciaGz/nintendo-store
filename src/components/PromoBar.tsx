@@ -15,8 +15,8 @@ export default function PromoBar() {
                     return (
                         <div
                             key={i}
-                            className='flex items-center'>
-                            {i === 1 && <span className='mx-4 hidden h-5 w-px bg-mist md:block' />}
+                            className={`items-center ${i === 0 ? 'hidden lg:flex' : 'flex'}`}>
+                            {i === 1 && <span className='mx-4 hidden h-5 w-px bg-gray-400 lg:block' />}
                             <Icon
                                 className='mr-2 size-5 shrink-0 text-primary'
                                 strokeWidth={2}

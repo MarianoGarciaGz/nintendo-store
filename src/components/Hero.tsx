@@ -2,8 +2,9 @@ import { ChevronRight, CircleCheck } from 'lucide-react'
 import product from '@/data/product.json'
 import Gallery from '@/components/Gallery'
 import PurchasePanel from '@/components/PurchasePanel'
+import EsrbRating from '@/components/EsrbRating'
 
-const { breadcrumb, esrb, switch2Compatibility } = product
+const { breadcrumb, switch2Compatibility } = product
 
 export default function Hero() {
     return (
@@ -33,16 +34,7 @@ export default function Hero() {
                             <Gallery />
 
                             {/* ESRB */}
-                            <div className='flex items-start gap-3 max-w-[412px]'>
-                                <img
-                                    src='/assets/ESRB.svg'
-                                    alt=''
-                                />
-                                <div className='text-xs text-ink/80'>
-                                    <p className='border-b pb-2'>{esrb.descriptors.join(', ')}</p>
-                                    <p className='pt-1'>{esrb.interactive}</p>
-                                </div>
-                            </div>
+                            <EsrbRating />
 
                             {/* Caja compatibilidad Switch 2 */}
                             <div className='flex items-start gap-3 rounded-lg bg-mist/50 p-4'>
