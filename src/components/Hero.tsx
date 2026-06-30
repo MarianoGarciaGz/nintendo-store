@@ -12,7 +12,7 @@ export default function Hero() {
             <div className='mx-auto max-w-[1240px] translate-y-[0em] lg:translate-y-[2em]'>
                 <div className='rounded-2xl bg-white shadow-lg p-12 md:p-12'>
                     {/* Breadcrumb */}
-                    <nav className='mb-5 flex items-center gap-1.5 text-sm font-medium text-ink/70'>
+                    <nav className='mb-5 flex items-center gap-1.5 text-legal font-semibold text-ink/70'>
                         {breadcrumb.map((crumb, i) => (
                             <span
                                 key={crumb}
@@ -37,7 +37,7 @@ export default function Hero() {
                             <EsrbRating />
 
                             {/* Caja compatibilidad Switch 2 */}
-                            <div className='flex items-start gap-3 rounded-lg bg-mist/50 p-4'>
+                            <div className='flex items-start gap-3 rounded-md bg-mist/50 p-4'>
                                 <CircleCheck className='mt-0.5 size-5 shrink-0 text-navy' />
                                 <div className='text-sm'>
                                     <p className='font-semibold'>{switch2Compatibility.title}</p>

@@ -10,13 +10,18 @@
 
     --font-sans: 'Geologica', -apple-system, BlinkMacSystemFont, sans-serif;
 
+    --text-h1l: 2.375rem;
+    --text-h1: 1.75rem;
+    --text-h2: 1.3125rem;
+    --text-h3: 1.125rem;
+    --text-body: 1rem;
+    --text-caption: 0.875rem;
+    --text-legal: 0.75rem;
+
     --radius-sm: 0.375rem;
     --radius: 0.5rem;
     --radius-lg: 1rem;
 
-    /* Breakpoints declarados en orden ascendente para que Tailwind v4
-       emita sus media queries ordenadas (si solo se sobrescribe lg,
-       su regla sale antes que md y gana md en la cascada). */
     --breakpoint-sm: 640px;
     --breakpoint-md: 768px;
     --breakpoint-lg: 1025px;
@@ -26,6 +31,7 @@
 
 html {
     font-family: var(--font-sans);
+    font-weight: 300;
     color: var(--color-ink);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -33,4 +39,20 @@ html {
 
 body {
     margin: 0;
+}
+
+/* ! Esta es una muy mala práctica de accesibilidad que originalmente está configurada así en el sitio oficial */
+/* Lo correcto es comentar por buenas prácticas y no usar "font-size: 16px;" pero lo dejamos por ser fiel al diseño original */
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 1rem;
+}
+
+html,
+body {
+    font-size: 16px;
 }

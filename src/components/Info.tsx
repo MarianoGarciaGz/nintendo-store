@@ -13,16 +13,16 @@ export default function Info() {
         <div className='grid grid-cols-1 items-start gap-7 py-12 md:grid-cols-2'>
             {/* Texto */}
             <div>
-                <h2 className='mb-4 text-[1.3125rem] font-semibold lg:text-[1.75rem]'>{description.heading}</h2>
+                <h2 className='mb-4 text-h2 font-semibold'>{description.heading}</h2>
 
-                <p className='text-[0.9375rem] leading-relaxed text-ink/90'>{intro}</p>
+                <p className='text-body leading-relaxed text-ink/90'>{intro}</p>
 
                 {open && (
                     <div className='overflow-hidden'>
                         {rest.map((p, i) => (
                             <p
                                 key={i}
-                                className='mt-4 text-[0.9375rem] leading-relaxed text-ink/90'>
+                                className='mt-4 text-body leading-relaxed text-ink/90'>
                                 {p}
                             </p>
                         ))}
@@ -56,7 +56,7 @@ export default function Info() {
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.99 }}
                     transition={{ type: 'spring', stiffness: 600, damping: 20 }}
-                    className='mt-5 inline-flex rounded-lg bg-primary px-5 py-3 text-sm font-semibold text-white hover:bg-[#ac000d]'>
+                    className='mt-5 inline-flex rounded-md bg-primary px-5 py-3 text-sm font-semibold text-white hover:bg-[#ac000d]'>
                     {description.officialSiteCta}
                 </motion.a>
             </div>

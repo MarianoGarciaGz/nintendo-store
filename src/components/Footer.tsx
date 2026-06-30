@@ -31,13 +31,13 @@ export default function Footer() {
                         <div
                             key={col.title}
                             className='border-e border-ink/15 px-4 first:border-l-0 last:border-r-0 md:px-0'>
-                            <h3 className='mb-4 font-semibold'>{col.title}</h3>
-                            <ul className='space-y-2.5 text-sm'>
+                            <h3 className='mb-4 text-caption font-semibold'>{col.title}</h3>
+                            <ul className='space-y-2.5 text-h3'>
                                 {col.links.map((link) => (
                                     <li key={link}>
                                         <a
                                             href='#'
-                                            className='text-primary hover:underline'>
+                                            className='font-semibold text-primary hover:underline'>
                                             {link}
                                         </a>
                                     </li>

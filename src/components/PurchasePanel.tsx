@@ -18,10 +18,10 @@ export default function PurchasePanel() {
             </span>
 
             {/* Título */}
-            <h1 className='mb-5 text-[1.75rem] font-semibold leading-tight lg:text-[2.375rem]'>{title}</h1>
+            <h1 className='mb-5 text-h1 font-semibold leading-tight'>{title}</h1>
 
             {/* Selector de versión */}
-            <p className='mb-2 text-sm font-medium'>Select a version</p>
+            <p className='mb-2 text-caption font-semibold'>Select a version</p>
             <div className='grid grid-cols-2 gap-2'>
                 {purchase.versions.map((v) => {
                     const active = selected === v.id
@@ -31,7 +31,7 @@ export default function PurchasePanel() {
                             type='button'
                             onClick={() => setSelected(v.id)}
                             whileTap={{ scale: 0.99 }}
-                            className={`flex items-center gap-2.5 rounded-lg border-2 px-3 py-2.5 text-left text-sm font-medium transition-colors ${
+                            className={`flex items-center gap-2.5 rounded-md border-2 px-3 py-2.5 text-left text-sm font-medium transition-colors ${
                                 active ? 'border-primary' : 'border-mist hover:border-ink/30'
                             }`}>
                             <span
@@ -59,14 +59,14 @@ export default function PurchasePanel() {
             </a>
 
             {/* Edition */}
-            <div className='mt-5 flex items-center gap-2 text-sm'>
+            <div className='mt-5 flex items-center gap-2 text-caption'>
                 <span className='font-semibold'>Edition</span>
                 <span className='rounded bg-ink/5 px-4 py-2 text-ink/80'>{purchase.edition}</span>
             </div>
 
             {/* Precio + wishlist */}
             <div className='mt-4 flex items-center justify-between'>
-                <span className='text-[1.75rem] font-semibold'>${purchase.price}</span>
+                <span className='text-h1 font-semibold'>${purchase.price}</span>
                 <motion.button
                     type='button'
                     aria-label='Add to wishlist'
@@ -87,9 +87,9 @@ export default function PurchasePanel() {
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.99 }}
                 transition={{ type: 'spring', stiffness: 600, damping: 20 }}
-                className='mt-4 flex items-center justify-center gap-2 rounded-lg bg-primary py-3.5 text-base font-semibold text-white hover:bg-[#ac000d]'>
+                className='mt-4 flex items-center justify-center gap-2 rounded-md bg-primary py-3.5 text-xl font-semibold text-white hover:bg-[#ac000d]'>
                 <Download
-                    className='size-5'
+                    className='size-8'
                     strokeWidth={2.5}
                 />
                 {purchase.cta}

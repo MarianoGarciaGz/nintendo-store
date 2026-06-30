@@ -41,7 +41,7 @@ export default function MoreLikeThis() {
 
     return (
         <div className=''>
-            <h2 className='mb-5 text-[1.3125rem] font-semibold lg:text-[1.75rem]'>More like this</h2>
+            <h2 className='mb-5 text-h2 font-semibold lg:text-h1'>More like this</h2>
 
             <div className='relative'>
                 <div

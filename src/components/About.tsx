@@ -89,7 +89,7 @@ function Values({ row }: { row: Row }) {
 export default function About() {
     return (
         <div className=''>
-            <h2 className='mb-2 text-[1.3125rem] font-semibold lg:text-[1.75rem]'>About this item</h2>
+            <h2 className='mb-2 text-h2 font-semibold lg:text-h1'>About this item</h2>
 
             <div className='border-t border-ink/10'>
                 {aboutItem.map((row) => {
@@ -97,9 +97,9 @@ export default function About() {
                     return (
                         <div
                             key={row.label}
-                            className='grid grid-cols-1 gap-2 border-b border-ink/10 py-5 text-sm md:grid-cols-[280px_1fr] md:gap-6'>
+                            className='grid grid-cols-1 gap-2 border-b border-ink/10 py-5 text-body md:grid-cols-[280px_1fr] md:gap-6'>
                             {/* Izquierda: icono + label */}
-                            <div className='flex items-center gap-3 font-semibold'>
+                            <div className='flex items-center gap-3 text-h3 font-semibold'>
                                 {Icon && (
                                     <Icon
                                         className='size-5 shrink-0 text-ink/70'
