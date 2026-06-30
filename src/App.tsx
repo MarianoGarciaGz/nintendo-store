@@ -10,10 +10,12 @@ import MoreLikeThis from '@/components/MoreLikeThis'
 import Legal from '@/components/Legal'
 import Footer from '@/components/Footer'
 import MobileBottomBar from '@/components/MobileBottomBar'
+import StickyPurchaseBar from '@/components/StickyPurchaseBar'
 
 export default function App() {
     return (
         <div className='min-h-screen bg-white text-ink pb-28 lg:pb-0'>
+            <StickyPurchaseBar />
             <Header />
             <PromoBar />
             <Hero />
@@ -25,7 +27,7 @@ export default function App() {
                 <RelatedTags />
             </section>
 
-            <section className='mx-4 max-w-[71.5rem] md:mx-auto md:w-[96%] mt-6'>
+            <section className='mx-4 max-w-[71.5rem] md:mx-auto md:w-[96%] mt-10'>
                 <About />
             </section>
 

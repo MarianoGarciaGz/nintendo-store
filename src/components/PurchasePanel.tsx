@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { motion } from 'motion/react'
 import { Check, Download, Heart } from 'lucide-react'
 import product from '@/data/product.json'
+import EsrbRating from '@/components/EsrbRating'
+import Switch2Box from '@/components/Switch2Box'
 
 const { category, title, purchase } = product
 
@@ -10,7 +12,7 @@ export default function PurchasePanel() {
     const [wished, setWished] = useState(false)
 
     return (
-        <div className='flex flex-col'>
+        <div className='flex flex-col pb-8 sm:pb-0 px-4 sm:px-0'>
             {/* Categoría */}
             <span className='mb-3 flex items-center gap-2 text-sm text-ink/70'>
                 <span className='h-4 w-0.5 bg-gray-900' />
@@ -81,8 +83,12 @@ export default function PurchasePanel() {
                 </motion.button>
             </div>
 
+            {/* ESRB — solo en mobile (en desktop va bajo la galería) */}
+            <EsrbRating className='mt-5 md:hidden' />
+
             {/* CTA */}
             <motion.button
+                id='hero-cta'
                 type='button'
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.99 }}
@@ -96,6 +102,9 @@ export default function PurchasePanel() {
             </motion.button>
 
             <p className='mt-3 text-sm text-ink/70'>{purchase.note}</p>
+
+            {/* Compat Switch 2 — solo en mobile (en desktop va bajo la galería) */}
+            <Switch2Box className='mt-6 md:hidden' />
         </div>
     )
 }

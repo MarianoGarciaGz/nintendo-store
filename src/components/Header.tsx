@@ -20,7 +20,7 @@ export default function Header() {
     return (
         <header className='bg-primary lg:bg-white'>
             {/* ---- Barra compacta (móvil/tablet, < lg) ---- */}
-            <div className='flex h-[52px] w-full items-center justify-between px-4 lg:hidden'>
+            <div className='flex h-[45px] w-full items-center justify-between px-4 ps-2 lg:hidden'>
                 <a
                     href='#'
                     aria-label='Nintendo'
@@ -28,7 +28,7 @@ export default function Header() {
                     <img
                         src={asset('/assets/brand/nintendo-logo.svg')}
                         alt='Nintendo'
-                        className='h-9 w-auto'
+                        className='h-8 w-auto'
                     />
                 </a>
                 <div className='flex items-center gap-3 text-white'>

@@ -27,7 +27,7 @@ export default function PromoBar() {
                                         <a
                                             key={j}
                                             href='#'
-                                            className='font-semibold text-primary underline hover:no-underline'>
+                                            className='font-semibold underline hover:no-underline'>
                                             {seg.text}
                                         </a>
                                     ) : seg.bold ? (

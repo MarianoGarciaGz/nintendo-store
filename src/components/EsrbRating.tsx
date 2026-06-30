@@ -3,9 +3,9 @@ import { asset } from '@/lib/asset'
 
 const { esrb } = product
 
-export default function EsrbRating() {
+export default function EsrbRating({ className = '' }: { className?: string }) {
     return (
-        <div className={`flex items-start gap-3 max-w-[412px]`}>
+        <div className={`flex items-start gap-3 max-w-[412px] ${className}`}>
             <img
                 src={asset('/assets/ESRB.svg')}
                 alt={esrb.rating}

@@ -33,7 +33,7 @@ export default function Gallery() {
         <div className='flex flex-col gap-3'>
             {/* Imagen principal */}
             <div
-                className='overflow-hidden rounded-xl'
+                className='overflow-hidden sm:rounded-xl'
                 ref={emblaMainRef}>
                 <div className='flex'>
                     {slides.map((slide, i) => (
