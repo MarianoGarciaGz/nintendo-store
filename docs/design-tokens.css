@@ -1,16 +1,16 @@
 @theme {
-  --color-primary: #e60012;
-  --color-navy: #0b2b6b;
-  --color-sky: #d6f0fa;
-  --color-mist: #efefef;
-  --color-base: #ffffff;
-  --color-ink: #434242;
+    --color-primary: #e60012;
+    --color-navy: #0b2b6b;
+    --color-sky: #d6f0fa;
+    --color-mist: #efefef;
+    --color-base: #ffffff;
+    --color-ink: #434242;
 
-  --font-sans: "Geologica", -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-sans: 'Geologica', -apple-system, BlinkMacSystemFont, sans-serif;
 
-  --radius-sm: 0.375rem;
-  --radius: 0.5rem;
-  --radius-lg: 1rem;
+    --radius-sm: 0.375rem;
+    --radius: 0.5rem;
+    --radius-lg: 1rem;
 
-  --max-page: 90rem;
+    --max-page: 90rem;
 }
