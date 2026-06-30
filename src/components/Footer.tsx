@@ -1,4 +1,5 @@
 import product from '@/data/product.json'
+import { asset } from '@/lib/asset'
 
 const { footer } = product
 
@@ -67,7 +68,7 @@ export default function Footer() {
                         ))}
                     </div>
                     <img
-                        src='/assets/footer/BBB.svg'
+                        src={asset('/assets/footer/BBB.svg')}
                         alt='BBB National Programs - CARU COPPA Safe Harbor'
                         className='h-16 w-auto'
                     />

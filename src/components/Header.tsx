@@ -1,4 +1,5 @@
 import { Search, Heart, ShoppingCart, CircleUserRound, Compass, ShoppingBag, LifeBuoy } from 'lucide-react'
+import { asset } from '@/lib/asset'
 
 const navLinks = [
     { label: 'Explore', icon: Compass },
@@ -25,7 +26,7 @@ export default function Header() {
                     aria-label='Nintendo'
                     className=''>
                     <img
-                        src='/assets/brand/nintendo-logo.svg'
+                        src={asset('/assets/brand/nintendo-logo.svg')}
                         alt='Nintendo'
                         className='h-9 w-auto'
                     />
@@ -52,7 +53,7 @@ export default function Header() {
                     className='flex h-full items-center bg-primary px-2'
                     aria-label='Nintendo'>
                     <img
-                        src='/assets/brand/nintendo-logo.svg'
+                        src={asset('/assets/brand/nintendo-logo.svg')}
                         alt='Nintendo'
                         className='h-[2.5rem] w-auto'
                     />

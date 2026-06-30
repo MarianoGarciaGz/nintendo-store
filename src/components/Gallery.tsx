@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import { ChevronRight, Play } from 'lucide-react'
 import product from '@/data/product.json'
+import { asset } from '@/lib/asset'
 
 const slides = product.gallery
 
@@ -40,7 +41,7 @@ export default function Gallery() {
                             key={i}
                             className='relative min-w-0 flex-[0_0_100%]'>
                             <img
-                                src={slide.src}
+                                src={asset(slide.src)}
                                 alt={slide.alt}
                                 className='aspect-video w-full object-cover'
                             />
@@ -75,7 +76,7 @@ export default function Gallery() {
                                 }`}
                                 aria-label={`Slide ${i + 1}`}>
                                 <img
-                                    src={slide.src}
+                                    src={asset(slide.src)}
                                     alt=''
                                     className='aspect-video w-full object-cover'
                                 />

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { motion } from 'motion/react'
 import { Plus, Minus } from 'lucide-react'
 import product from '@/data/product.json'
+import { asset } from '@/lib/asset'
 
 const { description } = product
 const [intro, ...rest] = description.paragraphs
@@ -64,7 +65,7 @@ export default function Info() {
             {/* Imagen */}
             <div className='overflow-hidden rounded-xl'>
                 <img
-                    src={product.gallery[0].src}
+                    src={asset(product.gallery[0].src)}
                     alt={product.title}
                     className='aspect-video w-full object-cover'
                 />

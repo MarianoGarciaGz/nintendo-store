@@ -3,6 +3,7 @@ import useEmblaCarousel from 'embla-carousel-react'
 import { motion } from 'motion/react'
 import { ChevronLeft, ChevronRight, Heart, LayoutGrid } from 'lucide-react'
 import product from '@/data/product.json'
+import { asset } from '@/lib/asset'
 
 type Game = {
     title: string
@@ -103,7 +104,7 @@ function GameCard({ game }: { game: Game }) {
             transition={{ type: 'spring', stiffness: 300, damping: 20 }}
             className='flex h-full flex-col overflow-hidden rounded-xl border border-mist bg-white max-w-[16.375rem]'>
             <img
-                src={game.image}
+                src={asset(game.image)}
                 alt={game.title}
                 className='aspect-square w-full object-cover'
             />

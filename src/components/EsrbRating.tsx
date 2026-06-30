@@ -1,4 +1,5 @@
 import product from '@/data/product.json'
+import { asset } from '@/lib/asset'
 
 const { esrb } = product
 
@@ -6,7 +7,7 @@ export default function EsrbRating() {
     return (
         <div className={`flex items-start gap-3 max-w-[412px]`}>
             <img
-                src='/assets/ESRB.svg'
+                src={asset('/assets/ESRB.svg')}
                 alt={esrb.rating}
                 className='w-10 shrink-0'
             />
